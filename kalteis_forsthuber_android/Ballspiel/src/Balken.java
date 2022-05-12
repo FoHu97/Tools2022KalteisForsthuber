@@ -95,5 +95,7 @@ public class Balken {
 		leinwand.setColor(Color.cyan);
 		leinwand.fillRect(_x, _y, _breite, _hoehe);
 	}
+	public void thisIsANewMethod(){
+	}
 
 }
