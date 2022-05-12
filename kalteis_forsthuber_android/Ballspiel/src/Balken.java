@@ -97,7 +97,10 @@ public class Balken {
 	}
 	public void thisIsANewMethod(){
 
-		System.out.println("HelloWorld");
+		System.out.println("!!\n");
 	}
+		
+	
+	
 
 }
