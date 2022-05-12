@@ -69,7 +69,7 @@ public class Ball {
 	}
 
 	public void move() {
-
+		System.out.println("move()");
 		if (_y == 0) {
 			_stepInY = -_stepInY;
 		}
