@@ -92,7 +92,7 @@ public class Balken {
 	public void zeichnen() {
 		Graphics leinwand = _panel.getGraphics();
 
-		leinwand.setColor(Color.cyan);
+		leinwand.setColor(Color.blue);
 		leinwand.fillRect(_x, _y, _breite, _hoehe);
 	}
 
