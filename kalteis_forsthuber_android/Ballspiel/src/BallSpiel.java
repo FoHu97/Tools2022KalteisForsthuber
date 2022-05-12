@@ -149,6 +149,7 @@ public class BallSpiel extends JFrame {
 	 * Create the frame.
 	 */
 	public BallSpiel() {
+		System.out.println("BallSpiel()");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 463, 345);
 		setJMenuBar(getMenuBar_1());
@@ -176,6 +177,7 @@ public class BallSpiel extends JFrame {
 	}
 
 	private Button getButton() {
+		System.out.println("getButton()");
 		if (button == null) {
 			button = new Button("Start");
 			button.addKeyListener(new KeyAdapter() {
@@ -250,6 +252,7 @@ public class BallSpiel extends JFrame {
 	}
 
 	private JMenuItem getMntmNewGame() {
+		System.out.println("getMntmNewGame()");
 		if (mntmNewGame == null) {
 			mntmNewGame = new JMenuItem("New Game");
 			mntmNewGame.addActionListener(new ActionListener() {
