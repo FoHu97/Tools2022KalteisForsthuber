@@ -96,7 +96,8 @@ public class Balken {
 		leinwand.fillRect(_x, _y, _breite, _hoehe);
 	}
 	public void thisIsANewMethod(){
-		system.out.printline("New Output");
+
+		System.out.println("HelloWorld");
 	}
 
 }
